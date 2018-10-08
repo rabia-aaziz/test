@@ -1,0 +1,71 @@
+.key {
+    font-family: 'Arvo', serif;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+     padding-top: 1em;
+     text-align: center;
+}
+
+body 
+{
+    background-color:#a9d0da; 
+   text-align: center;
+   }
+#show-msg
+{
+   max-width: 650px;
+   display:inline-block;
+   height: 50px;
+   
+}
+#type-msg{
+       max-width: 650px;
+   display:inline-block;
+   
+    }
+
+#img
+{
+    background-image: url("images/keyboard-key.png");
+    height:40px;
+    width:40px;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    cursor: pointer !important;
+      position: relative;
+  top: 0;
+  left: 0;
+    
+   
+}
+#img-space
+{
+        background-image: url("images/space-bar-key.png");
+    height:40px;
+    width:100px;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+   padding: 16px;
+   cursor: pointer !important;
+   position: relative;
+   text-align: center;
+  top: 0;
+  left: 0;
+}
+
+.btns
+{
+    display:flex;
+    flex-wrap: wrap;
+  
+   text-align:center;
+  
+    padding: 5px;
+   
+}
